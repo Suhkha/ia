@@ -1,0 +1,26 @@
+.m-top{
+    margin-top: 10px;
+}
+
+.right{
+    float:right;
+}
+
+.error{
+    color:#B20000;
+}
+
+.control-label{
+    margin-top: 15px;
+}
+
+.fileupload-preview{
+    width: 200px;
+    height: 200px;
+}
+#image_tmp-error{
+  display: block;
+  background-color: white;
+  margin: .75em;
+  padding: 1em;
+}
