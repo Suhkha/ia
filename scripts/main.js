@@ -7,6 +7,10 @@
             $("#city").load('../blocks/__block--load_city.php?id='+id);
         });
 
+        $('.flexslider').flexslider({
+            animation: "slide"
+          });
+
         $('#login-form').validate({
         rules : {
             email :{

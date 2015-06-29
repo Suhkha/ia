@@ -61,6 +61,18 @@ class Gallery{
             }
         }
     }
+
+    //-- List all images by current user
+    public function all(){
+        $all = mysql_query("SELECT galleries.id_user, galleries.image, id_gallery, uploaded_at, qty_votes, sum_votes, average, users.vote FROM galleries INNER JOIN users ON(users.id_user = galleries.id_user )");     
+        
+        //-- All data is stored in array. That array is used in personal-gallery
+        while($row = mysql_fetch_array($all)){
+           $this->all[] = $row;
+        }
+
+        return $this->all; 
+    }
 }
 
 

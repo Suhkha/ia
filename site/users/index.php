@@ -53,7 +53,7 @@ include '../persistent-options.php';
                             </p>
 
                             <p>
-                                <a class="btn btn-primary m-top disabled" href="gallery.php">Ver galería</a>
+                                <a class="btn btn-primary m-top" href="gallery.php">Ver galería</a>
                             
 
                             <?php if($id_rol == 1){ ?>

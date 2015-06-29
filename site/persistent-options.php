@@ -6,6 +6,7 @@ function styles($path) {
     <link rel="stylesheet" href="{$path}styles/normalize.css">
     <link rel="stylesheet" href="{$path}styles/bootstrap.min.css">
     <link rel="stylesheet" href="{$path}styles/bootstrap-fileupload.min.css">
+    <link rel="stylesheet" href="{$path}styles/flexslider.css">
     <link rel="stylesheet" href="{$path}styles/main.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
 AAA;
@@ -85,6 +86,7 @@ function script($path) {
     <script src="{$path}scripts/plugins.js"></script>
     <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
     <script type="text/javascript" src="{$path}scripts/bootstrap-fileupload.min.js"></script>
+    <script type="text/javascript" src="{$path}scripts/jquery.flexslider.min.js"></script>
     <script src="{$path}scripts/main.js"></script>
 AAA;
 
